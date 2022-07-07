@@ -1,0 +1,365 @@
+body{ 
+
+    background-size: cover;
+    background-image: url(../images/bg.png);
+    color: white;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#title{
+    flex-direction: column;
+    line-height: 10px;
+}
+
+li{
+    display: inline-block;
+    margin: 20px;
+}
+
+a{
+    color: rgb(76, 251, 1);
+}
+
+a:hover{
+    color: rgb(0, 208, 255);
+    transition: 0.3s all;
+}
+
+#inscreva-se-btn{
+    border: 2px solid rgb(0, 0, 0);
+    padding: 10px;
+    border-radius: 15px;
+}
+
+#inscreva-se-btn:hover{
+    background-color:rgb(0, 208, 255);
+    color: rgb(0, 0, 0);
+    
+}
+
+h1{
+    font-family: 'PT Serif', serif;
+    font-weight: 200;
+    color: rgb(0, 255, 30);
+
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    
+}
+
+h2{
+    font-family: 'PT Serif', serif;
+    font-size: 56px;
+    line-height: 10px;
+    color: rgb(0, 255, 47);
+}
+
+span{
+    color: rgb(0, 208, 255);
+}
+
+p{
+    
+    opacity: 70%;
+    line-height: 20px;
+    max-width: 500px;
+    color: rgb(255, 255, 255);
+}
+
+
+img {
+    width: 100px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+form [type="submit"]{
+    height: 50px;
+    width: 50%;
+    background-color: rgb(0, 255, 17);
+    color: white;
+    font-weight: bold;
+}
+form [type="submit"]:hover{
+    cursor: pointer;
+}
+
+input{
+    margin-top: 20px;
+    height: 20px;
+    padding: 15px;
+    border-radius: 20px;
+    border: none;
+    font-size: 15px;
+}
+
+    
+/* Smartphones (600px para baixo) */
+@media only screen and (max-width: 600px) {
+    ul {
+        margin: 10%;
+        margin-right: 40px;
+        align-items: center;
+        flex-direction: column;
+        margin-left: 0px;
+        
+    }
+    a {
+        margin: 0px;
+        margin-right: 100%;
+        flex-direction: row;
+        color: aqua;
+        background-color: blueviolet;
+        border: 2px solid rgb(0, 0, 0);
+        padding: 10px;
+        border-radius: 15px;
+        
+    }
+    h2 {
+        margin: 10%;
+        margin-right: 70px;
+        align-items: center;
+        flex-direction: column;
+        flex-direction: row;
+        line-height: 40px;
+    }
+    span {
+        margin: 10%;
+        margin-right: 0px;
+        margin-left: 0px;
+        flex-direction: row;
+        line-height: 40px;
+    }
+    body {
+    background-image: url(../images/aaaaa.jpg);
+    background-position: 50%;
+    }
+}
+
+/* Dispositivos um pouco maiores, mas ainda pequenos (Pequenos Tablets e Smartphones + largos, 600px para cima) */
+@media only screen and (min-width: 600px) {
+    ul {
+        margin: 10%;
+        margin-right: 40px;
+        align-items: center;
+        flex-direction: column;
+        margin-left: 0px;
+        
+    }
+    a {
+        margin: 0px;
+        /* margin-right: 100%; */
+        flex-direction: row;
+        color: aqua;
+        background-color: blueviolet;
+        border: 2px solid rgb(0, 0, 0);
+        padding: 10px;
+        border-radius: 15px;
+        
+    }
+    h2 {
+        margin: 10%;
+        margin-right: 70px;
+        align-items: center;
+        flex-direction: column;
+        flex-direction: row;
+        line-height: 40px;
+    }
+    span {
+        margin: 10%;
+        margin-right: 0px;
+        margin-left: 0px;
+        flex-direction: row;
+        line-height: 40px;
+    }
+    body {
+    background-image: url(../images/aaaaa.jpg);
+    background-position: 50%;
+    }
+   
+        
+    }
+
+/*Dispostivos Médios (Tablets deitados, 768px para cima) */
+@media only screen and (min-width: 768px) {
+    ul {
+        margin: 10%;
+        margin-right: 40px;
+        align-items: center;
+        flex-direction: column;
+        margin-left: 0px;
+        
+    }
+    a {
+        margin: 0px;
+        flex-direction: row;
+        color: aqua;
+        background-color: blueviolet;
+        border: 2px solid rgb(0, 0, 0);
+        padding: 10px;
+        border-radius: 15px;
+        
+    }
+    h2 {
+        margin: 10%;
+        margin-right: 90px;
+        align-items: center;
+        flex-direction: row;
+        line-height: 40px;
+    }
+    span {
+        margin: 10%;
+        margin-right: 0px;
+        margin-left: 0px;
+        flex-direction: row;
+        line-height: 40px;
+    }
+
+    p {
+        margin-right: 50;
+        margin-left: 10%;
+        flex-direction: row;
+    }
+    img {
+        margin-right: 50;
+        margin-left: 10%;
+    
+        flex-direction: row;
+    }
+    body {
+    background-image: url(../images/wallpaper\ cell.jpg);
+    background-size: cover;
+    background-position: 60%;
+    }
+   
+}
+
+/* Dispostivos Largos (laptops/desktops, 992px para cima) */
+@media only screen and (min-width: 992px) {
+    ul {
+        margin: 10%;
+        margin-right: 40px;
+        align-items: center;
+        flex-direction: column;
+        margin-left: 0px;
+        
+    }
+    a {
+        margin: 0px;
+        flex-direction: row;
+        color: aqua;
+        background-color: blueviolet;
+        border: 2px solid rgb(0, 0, 0);
+        padding: 10px;
+        border-radius: 15px;
+        
+    }
+    h2 {
+        margin: 10%;
+        margin-right: 90px;
+        align-items: center;
+        flex-direction: row;
+        line-height: 40px;
+    }
+    span {
+        margin: 10%;
+        margin-right: 0px;
+        margin-left: 0px;
+        flex-direction: row;
+        line-height: 40px;
+    }
+    
+    p {
+        opacity: 80%;
+        color: white;
+        background-color: black;
+        margin-right: 50;
+        margin-left: 10%;
+        flex-direction: row;
+    }
+    img {
+        margin-right: 50;
+        margin-left: 10%;
+    
+        flex-direction: row;
+    }
+    body {
+    background-image: url(../images/aaaaa.jpg);
+    background-size: cover;
+    background-position: 60%;
+    }
+}
+
+
+/* Super Largos (Telas maiores laptops, desktops e até TVs, 1200px para cima) */
+@media only screen and (min-width: 1200px) {
+ul {
+    margin: 10%;
+    margin-right: 40px;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 0px;
+    
+}
+a {
+    margin: 0px;
+    flex-direction: row;
+    color: aqua;
+    background-color: blueviolet;
+    border: 2px solid rgb(0, 0, 0);
+    padding: 10px;
+    border-radius: 15px;
+    
+}
+h2 {
+    margin: 10%;
+    margin-right: 40px;
+    
+    
+}
+span {
+    
+    margin: 10%;
+    margin-right: 0px;
+    margin-left: 0px;
+    flex-direction: row;
+    line-height: 70px;
+}
+
+p {
+    opacity: 80%;
+    color: rgb(173, 171, 171);
+    background-color: rgba(250, 235, 215, 0);
+    margin-right: 50;
+    margin-left: 10%;
+    flex-direction: row;
+}
+img {
+    margin-right: 50;
+    margin-left: 10%;
+
+    flex-direction: row;
+}
+body {
+background-image: url(../images/bg.png);
+background-size: cover;
+background-position: 60%;
+}
+}
